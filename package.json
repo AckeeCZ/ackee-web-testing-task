@@ -76,7 +76,7 @@
     "husky": {
         "hooks": {
             "pre-commit": "lint-staged",
-            "pre-push": "npx madge --circular site/src/pages/index.js"
+            "pre-push": "npx madge --circular src/pages/index.js"
         }
     },
     "lint-staged": {
