@@ -6,7 +6,6 @@ import Gallery, { GalleryLayout } from '../modules/references/Components/Gallery
 import TextContent from '../modules/references/Components/TextContent';
 import HeroBanner from '../modules/references/Components/HeroBanner';
 import CaseHeader from '../modules/references/Components/CaseHeader';
-import Testimonial, { TestimonialType } from '../modules/references/Components/Testimonial';
 
 import socialPreview from '../../static/social-previews/critical-states.png';
 import Seo from '../components/SEO';

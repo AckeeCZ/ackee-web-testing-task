@@ -29,8 +29,6 @@ const { useEscapeKey } = hooks;
 const handleBackButtonClick = () => {
     if (window) {
         window.history.back();
-
-        window.ga('event', 'send', 'Case study', 'Internal clicks', 'Back button click');
     }
 };
 

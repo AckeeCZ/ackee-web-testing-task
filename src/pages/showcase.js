@@ -1,12 +1,9 @@
 import React from 'react';
 
-import { compose } from 'recompose';
-import { injectIntl, useIntl } from 'react-intl';
-import { withPageContext } from '../gatsby-theme-localized';
+import { injectIntl } from 'react-intl';
 
 import Team from '../modules/references/Components/Team';
 
-import Testimonial from '../modules/references/Components/Testimonial';
 import Gallery, { GalleryLayout } from '../modules/references/Components/Gallery';
 import TextContent from '../modules/references/Components/TextContent';
 import HeroBanner from '../modules/references/Components/HeroBanner';

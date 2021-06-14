@@ -10,7 +10,7 @@ export default function Component() {
         <>
             <h1>Our case studies</h1>
             {Object.values(referencesRoutes).map(route => (
-                <Link to={route}>
+                <Link key={route} to={route}>
                     <p>{route}</p>
                 </Link>
             ))}
