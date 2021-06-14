@@ -1,0 +1,1 @@
+export { useObserveTheme } from './useObserveTheme';

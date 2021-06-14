@@ -1,0 +1,53 @@
+{
+    "name": "gatsby-theme-localized",
+    "description": "A theme for websites with internationalized content and routes",
+    "version": "0.0.1",
+    "author": "Filip Kubík <filip.kubik@ackee.cz>",
+    "contributors": [
+        "Marek Janča <marek-janca@volny.cz>"
+    ],
+    "dependencies": {
+        "@formatjs/intl-pluralrules": "^4.0.0",
+        "gatsby": "^3.3.1",
+        "gatsby-plugin-manifest": "^3.3.0",
+        "gatsby-plugin-offline": "^4.3.0",
+        "gatsby-source-filesystem": "^3.3.0",
+        "jsdom": "^16.2.0",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0",
+        "react-intl": "^5.0.0",
+        "recompose": "^0.30.0"
+    },
+    "keywords": [
+        "gatsby",
+        "gatsby-theme-ackee",
+        "intl"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "start": "npm run develop",
+        "serve": "gatsby serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AckeeCZ/gatsby-theme-localized"
+    },
+    "bugs": {
+        "url": "https://github.com/AckeeCZ/gatsby-theme-localized/issues"
+    },
+    "devDependencies": {
+        "babel-preset-gatsby": "^1.3.0",
+        "gatsby": "^3.3.1",
+        "identity-obj-proxy": "^3.0.0",
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0"
+    },
+    "peerDependencies": {
+        "gatsby": "^3.3.1",
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0"
+    }
+}

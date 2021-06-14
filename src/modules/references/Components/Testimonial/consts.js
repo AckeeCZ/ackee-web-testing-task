@@ -1,0 +1,5 @@
+export const TestimonialType = {
+    PROFILE_RIGHT: 'PROFILE_RIGHT',
+    PROFILE_BOTTOM: 'PROFILE_BOTTOM',
+    PROFILE_NONE: 'PROFILE_NONE',
+};

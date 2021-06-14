@@ -1,0 +1,15 @@
+{
+    "extends": ["react-app", "@ackee/eslint-config", "prettier"],
+    "rules": {
+        "no-restricted-globals": "off",
+        "react/jsx-pascal-case": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["site/src", "src"],
+                "extensions": [".js",".jsx"]
+            }
+        }
+    }
+}
