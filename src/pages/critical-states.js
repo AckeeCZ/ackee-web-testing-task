@@ -169,21 +169,6 @@ const CriticalStates = () => {
                     },
                 ]}
             />
-            <Testimonial
-                headerTheme="dark"
-                background={colors.grey}
-                content={{
-                    quote: `case.${CASE_ID}.testimonial.text`,
-                    person: {
-                        name: `case.${CASE_ID}.testimonial.name`,
-                        role: `case.${CASE_ID}.testimonial.position`,
-                        image: {
-                            src: `${IMAGE_PATH}/testimonial.jpg`,
-                        },
-                    },
-                }}
-                type={TestimonialType.PROFILE_BOTTOM}
-            />
             <Team content={team} />
         </>
     );

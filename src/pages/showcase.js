@@ -105,38 +105,6 @@ const ShowCase = () => {
                     },
                 ]}
             />
-            <Testimonial
-                content={{
-                    quote: 'Best projectz ever with Ackee. I fell in love They are fucking awesome',
-                    person: {
-                        name: 'Dominik Veselý',
-                        role: 'CTO',
-                        image: {
-                            src: 'references/case-studies/hopi/2_1.png',
-                        },
-                    },
-                }}
-                type="PROFILE_RIGHT"
-            />
-            <Testimonial
-                content={{
-                    quote: 'Best projectz ever with Ackee. I fell in love They are fucking awesome',
-                    person: {
-                        name: 'Dominik Veselý',
-                        role: 'CTO',
-                        image: {
-                            src: 'references/case-studies/hopi/2_1.png',
-                        },
-                    },
-                }}
-                type="PROFILE_BOTTOM"
-            />
-            <Testimonial
-                content={{
-                    quote: 'Best projectz ever with Ackee. I fell in love They are fucking awesome',
-                }}
-                type="PROFILE_NONE"
-            />
             <Gallery
                 layout={GalleryLayout.EQUAL}
                 content={[
