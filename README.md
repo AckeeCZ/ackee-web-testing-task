@@ -43,6 +43,7 @@ Whoa, whoa, whoa first things first:
 2. This component will have 3 types defined in the design (page template in figma)
 3. Use this component in the existing case studies
 4. Add all types into showcase to demonstrate all the types
+5. Make sure its responsive
 
 ### Bonus task (optional)
 
